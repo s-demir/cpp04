@@ -31,8 +31,12 @@ int main()
 	wrongCat->makeSound();
 	wrongAnimal->makeSound();
 
+	std::cout << "-------" << std::endl;
 	delete wrongAnimal;
+	std::cout << "-------" << std::endl;
 	delete wrongCat;
+	std::cout << "-------" << std::endl;
+
 
 	return 0;
 }
